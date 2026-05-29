@@ -7,7 +7,7 @@
             <div class="card-header">
               <span>📝 申请休假</span>
             </div>
-          </el-form>
+          </template>
           
           <el-form :model="form" :rules="rules" ref="formRef" label-width="100px">
             <el-form-item label="假别" prop="type">
